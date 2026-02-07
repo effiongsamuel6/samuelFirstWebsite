@@ -1,13 +1,11 @@
-const hamburger = document.querySelector('.main i');
-const media = document.getElementsByClassName('media')[0];
+const mobileMenu = document.querySelector('.mobile-menu');
+const hamburger = document.querySelector('.hamburger');
 
 function toggle() {
-    hamburger.style.display = 'none';
-    media.style.display = 'block';
+    mobileMenu.classList.add('active');
 }
 
 function closeMenu() {
-    hamburger.style.display = 'block';
-    media.style.display = 'none';
+    mobileMenu.classList.remove('active');
 }
 
