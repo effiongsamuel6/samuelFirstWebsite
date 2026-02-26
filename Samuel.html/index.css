@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head {
+    padding: 2px;
+
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
